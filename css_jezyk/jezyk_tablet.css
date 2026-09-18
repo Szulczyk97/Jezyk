@@ -1,0 +1,78 @@
+:root{
+	--rodzina: arial;
+	--styl: italic;
+}
+
+body{
+	background-image: url("../obrazki_jezyk/tapeta_jezyk.webp");
+}
+
+#kontener{
+	width: 96%;
+	margin: auto;
+	text-align: center;
+}
+
+#naglowek{
+	margin: 30px auto 15px auto;
+	font-size: 30px;
+	font-family: var(--rodzina);
+	font-style: var(--styl);
+}
+
+#pola{
+	width: 92%;
+	margin: auto;
+	display: grid;
+	grid-template-columns: 48.5% 48.5%;
+	gap: 3%;
+	align-items: start;
+}
+
+#pole1, #pole2{
+	margin: 15px 0px 15px 0px;
+	padding: 4px;
+	border: 2px solid black;
+	border-radius: 4px;
+	background-image: url("../obrazki_jezyk/wypelnienie.webp");
+}
+
+.tlumaczenie{
+	margin: 15px auto 10px auto;
+	font-size: 18px;
+	font-family: var(--rodzina);
+}
+
+.wynik{
+	margin: 5px auto 10px auto;
+	font-size: 21px;
+	font-family: var(--rodzina);
+}
+
+input[type="text"]{
+	width: 200px;
+	height: 30px;
+	margin: 10px;
+	font-size: 19px;
+	border: 1.5px solid #0066CC;
+	border-radius: 2px;
+	background-color: white;
+}
+
+input[type="text"]:focus{
+	background-color: #99CCFF;
+}
+
+input[type="submit"]{
+	width: 100px;
+	height: 35px;
+	margin-top: 5px;
+	font-size: 19px;
+	cursor: pointer;
+}
+
+#stopka{
+	margin-top: 20px;
+	font-style: var(--styl);
+	text-shadow: 0.5px 0.5px 1px black;
+}
