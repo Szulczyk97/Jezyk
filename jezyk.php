@@ -1,4 +1,5 @@
 <?php
+	session_name("PROJEKT_JEZYK");
 	session_start();
 
 	if(!isset($_SESSION["decyzja1"])){

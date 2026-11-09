@@ -1,4 +1,5 @@
 <?php
+	session_name("PROJEKT_JEZYK");
 	session_start();
 
 	if($_SERVER["REQUEST_METHOD"] !== "POST" || !isset($_POST["wartosc2"], $_SESSION["decyzja2"])){
